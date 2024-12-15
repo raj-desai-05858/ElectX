@@ -1,0 +1,32 @@
+.hero-sec {
+    height: calc(100vh - 5rem);
+}
+
+.hero-lhs {
+    padding: 10rem 0;
+    padding-left: 4rem;
+    color: #000;
+    letter-spacing: 2.5px;
+}
+
+.choose-us-sec {
+    margin-bottom: 2rem;
+    justify-content: space-between;
+    padding: 1rem 2rem;
+    cursor: pointer;
+}
+
+.choose-us-sec .h-100 {
+    flex-direction: column;
+}
+
+.choose-us-sec .h-100 i {
+    font-size: 2.7rem;
+    font-weight: 700;
+    color: #157347;
+    margin-bottom: .5rem;
+}
+
+.importance {
+    height: 20rem;
+}

@@ -1,0 +1,58 @@
+body {
+    overflow: hidden;
+}
+
+.container {
+    padding: 0;
+    height: 90%;
+    margin: 2.5% auto;
+}
+
+.rhs {
+    height: 100%;
+    width: 45%;
+    background: url('../images/register.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    transform: translateX(-20rem);
+    animation: rhsAni 1.2s ease-in-out 1 forwards;
+}
+
+.lhs {
+    height: 100%;
+    width: 55%;
+    background: #59cc2c2a;
+    padding: 1.2rem 3rem;
+    transform: translateX(20rem);
+    animation: lhsAni 1.2s ease-in-out 1 forwards;
+}
+
+.ico {
+    width: 7rem;
+    height: 7rem;
+}
+
+@keyframes lhsAni {
+    from {
+        opacity: 0;
+        transform: translateX(-20rem);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+@keyframes rhsAni {
+    from {
+        opacity: 0;
+        transform: translateX(20rem);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
